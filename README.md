@@ -155,6 +155,7 @@ A complete Cuckoo install guide on Debian host.
      * It's pre-configured as needed by cuckoo
      * auto-login
      * Cuckoo agent installed, and agent configured to start automatically
+     * Pillow installed for screenshots
      
 # OR Create Cuckoo Guest
   * best instructions I found. Except didn't instruct to remove the password to allow auto-login on the admin account. 
