@@ -269,11 +269,8 @@ A complete Cuckoo install guide on Debian host.
           * 192.168.56.101
        * you need to activate venv before starting Cuckoo
         * before starting Cuckoo, Cuckoo Webserver, and Cuckoo API
-  * If you noticed, I did not set any UFW rules. 
-      * You will have to tinker with it becuase it can break the traffic from host to guest and cause cuckoo to fail
   * you may want to use anything but your own work or home Network connection. 
       * use DMZ, VPS, or VPN connection
-      * Don't leave bread crumbs back to you
   * I would imagine some malware would create problems
       * This malware would probably require static analysis
       * Also be a good idea to submit and share the samples with the community 
