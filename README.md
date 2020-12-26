@@ -119,6 +119,7 @@ A complete Cuckoo install guide on Debian host.
 `sudo ldconfig`   
 `sudo /etc/init.d/guacd start`   
 ` cd ~`
+`systemctl enable guacd`
 
 > Root tasks are finished. reboot and switch to cuckoo user
 
