@@ -261,7 +261,7 @@ A complete Cuckoo install guide on Debian host.
       * if the links or malware require multiple downloads
         * use the remote control to assist the cuckoo automation
   * behavior analysis is only part of it
-      * there is a lot more you can do to analysis without executing
+      * there is a lot more you can do to analize without executing
       
  # More information 
    https://cuckoo.readthedocs.io/en/latest/installation/   
