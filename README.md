@@ -119,7 +119,7 @@ A complete Cuckoo install guide on Debian host.
 `./configure --with-init-dir=/etc/init.d`   
 `make && sudo make install && cd ..`   
 `sudo ldconfig`   
-`sudo /etc/init.d/guacd start`
+`sudo /etc/init.d/guacd start`   
 ` cd ~`
 
 > Root tasks are finished. reboot and switch to cuckoo user
