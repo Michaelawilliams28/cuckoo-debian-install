@@ -173,7 +173,7 @@ A complete Cuckoo install guide on Debian host.
      * Cuckoo agent installed, and agent configured to start automatically
      * Pillow installed for screenshots
      * 1CPU/1core, 2Gb RAM, 32Gb storage/16GB used
-     * Volatility Suggested Profile(s) : Win7SP1x64, Win7SP0x64, Win2008R2SP0x64, Win2008R2SP1x64_24000, Win2008R2SP1x64_23418, Win2008R2SP1x64, Win7SP1x64_24000,    Win7SP1x64_23418
+     * Volatility Suggested Profile(s) : Win7SP1x64
 
 # OR Create Cuckoo Guest
   * best instructions I found. Except didn't instruct to remove the password to allow auto-login on the admin account. 
