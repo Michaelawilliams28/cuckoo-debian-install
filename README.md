@@ -176,9 +176,10 @@ A complete Cuckoo install guide on Debian host.
      * Volatility Suggested Profile(s) : Win7SP1x64
 
 # OR Create Cuckoo Guest
-  * best instructions I found. Except didn't instruct to remove the password to allow auto-login on the admin account. 
+  * best instructions I found.   
+    >  https://gist.github.com/braimee/bf570a62f53f71bad1906c6e072ce993#build-your-base-windows-vm   
   * I would recommend using 192.168.56.101 as static IP. Unless you like rabbit holes. 
-  >  https://gist.github.com/braimee/bf570a62f53f71bad1906c6e072ce993#build-your-base-windows-vm
+
   
 # Create iptables pre-cuckoo-start script
   * The idea is that the guest machine is on a Host-Only network adapter (no internet). Although, we need the machine to have network access. 
@@ -281,7 +282,6 @@ A complete Cuckoo install guide on Debian host.
  # More information 
    https://cuckoo.readthedocs.io/en/latest/installation/   
    https://cuckoo.sh/docs/installation/host/installation.html   
-   I astrayed from the following. Although, had helpful information   
    https://gist.github.com/braimee/bf570a62f53f71bad1906c6e072ce993#file-mostly_painless_cuckoo_sandbox_install-md   
    https://blog.nviso.eu/2018/04/12/painless-cuckoo-sandbox-installation/   
    
