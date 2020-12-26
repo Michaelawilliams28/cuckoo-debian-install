@@ -139,22 +139,23 @@ A complete Cuckoo install guide on Debian host.
   > https://mega.nz/file/9AB1XQJb#MZbHNuh3ofmqXQfpQwOg_YDv0lIuWywvAVSZGcgCvuY   
   > Hash: SHA256 E:\cuckoo1.ova          
   > D927696A69B095D82B0E26D20B8786A8BB823E57200A95F3FDAB0B834AD0CEFD           
-  
-   * Windows 7 non-licensed. Office 2010 non-licensed. Adobe. IE11. Python2.7. Enough windows updates to make it stable. 
-   * Default static IP 192.168.56.101 
-     * which is the default IP in cuckoo conf
-   * It's pre-configured as needed by cuckoo
-   * auto-login
-   * Cuckoo agent installed, and agent configured to start automatically
-   * Import it, logged in as a cuckoo user
+   * logged in as a cuckoo user
+     * Import it to Vbox
+   * may prompt for reboot for finishing IE install
    * Verify machine is on Host-Only Network Adapter
    * Start once, wait for the desktop to load
    * cmd as admin, use `slmgr -rearm` command to restart evaluation period. reboot.
    *  wait for the desktop to load
-   * may prompt for reboot for finsihing IE install
    * Create a snapshot while running named "Snapshot1"   
       * cuckoo requires running snapshot
-
+   * About this ova:
+     * Windows 7 non-licensed. Office 2010 non-licensed. Adobe. IE11. Python2.7. Enough windows updates to make it stable. 
+     * Default static IP 192.168.56.101 
+       > which is the default IP in cuckoo conf
+     * It's pre-configured as needed by cuckoo
+     * auto-login
+     * Cuckoo agent installed, and agent configured to start automatically
+     
 # OR Create Cuckoo Guest
   * best instructions I found. Except didn't instruct to remove the password to allow auto-login on the admin account. 
   * I would recommend using 192.168.56.101 as static IP. Unless you like rabbit holes. 
