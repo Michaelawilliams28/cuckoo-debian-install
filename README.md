@@ -119,7 +119,7 @@ A complete Cuckoo install guide on Debian host.
 `make && sudo make install && cd ..`   
 `sudo ldconfig`   
 `sudo /etc/init.d/guacd start`   
-` cd ~`
+` cd ~`   
 `systemctl enable guacd`
 
 > Root tasks are finished. reboot and switch to cuckoo user
@@ -136,12 +136,12 @@ A complete Cuckoo install guide on Debian host.
   (venv)` cuckoo`   
   * install cuckoo community rules   
   (venv)` cuckoo community`   
-  > hopefully cuckoo does intialize and shows welcome message. This will create the initial conf files.   
-  * confirm distorm3 is installed in venv for vol   
-  (venv) `pip install distorm3==3.4.4`    
+  > hopefully cuckoo does intialize and shows welcome message. This will create the initial conf files.    
   ### Volatility for venv
   * copy vol to venv   
   `sudo cp -r /usr/local/lib/python2.7/dist-packages/volatility-2.6.1-py2.7.egg/volatility/ /home/cuckoo/venv/lib/python2.7/`   
+  * confirm distorm3 is installed in venv for vol   
+  (venv) `pip install distorm3==3.4.4`   
     
   * Don't start cuckoo yet. Will still have a bit more to do. 
 
