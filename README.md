@@ -102,6 +102,7 @@ A complete Cuckoo install guide on Debian host.
 ` python ./setup.py test`   
 ` python ./setup.py install`   
 ` cd ~`   
+` sudo pip install distorm3`
 
 # Installing M2Crypto
 ` sudo apt install python-m2crypto`    
