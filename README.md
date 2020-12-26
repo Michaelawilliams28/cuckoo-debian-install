@@ -1,5 +1,5 @@
 # Cuckoo Debian Install  
-### How to Build a Debian Cuckoo Sandbox Malware Analysis System
+# How to Build a Debian Cuckoo Sandbox Malware Analysis System
 
 A complete Cuckoo install guide on Debian host.
   * Debian 10.7
