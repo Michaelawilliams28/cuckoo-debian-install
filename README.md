@@ -273,6 +273,9 @@ A complete Cuckoo install guide on Debian host.
   * you may want to use anything but your own work or home Network connection. 
       * use DMZ, VPS, or VPN connection
       * Don't leave bread crumbs back to you
+  * I would imagine some malware would create problems
+      * This malware would probably require static analysis
+      * Also be a good idea to submit and share the samples with the community 
       
  # More information 
    https://cuckoo.readthedocs.io/en/latest/installation/   
