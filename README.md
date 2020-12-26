@@ -5,9 +5,10 @@
 A complete Cuckoo install guide on Debian host.
   * Debian 10.7
   * Virtualbox 6.0
+  * optional win7 guest ova
+    * Box in a Box
   * building Volatility from source
   * building Gaucamole 1.2 from source
-  * optional win7 guest ova
   * using venv for cuckoo
   * estimated time around 3-4 hours from scratch :relaxed:
   * time spent on knowledge on this guide about 10 times that :disappointed:
@@ -138,9 +139,8 @@ A complete Cuckoo install guide on Debian host.
   > hopefully cuckoo does intialize and shows welcome message. This will create the initial conf files.
   * Don't start cuckoo yet. Will still have a bit more to do. 
 
-# Import ova Cuckoo Guest machine with VirtualBox
-  ### I created a Windows 7 guest if you wanted the easy way.
-  > Box in a Box
+# Import ova Cuckoo Guest machine with VirtualBox   
+  ### I created a Windows 7 guest if you wanted the easy way.   
   > cuckoo1.ova   
   > https://mega.nz/file/9AB1XQJb#MZbHNuh3ofmqXQfpQwOg_YDv0lIuWywvAVSZGcgCvuY   
   > Hash: SHA256 E:\cuckoo1.ova          
