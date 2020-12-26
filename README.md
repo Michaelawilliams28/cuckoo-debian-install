@@ -139,8 +139,8 @@ A complete Cuckoo install guide on Debian host.
   * Don't start cuckoo yet. Will still have a bit more to do. 
 
 # Import ova Cuckoo Guest machine with VirtualBox
-  ## I created a Windows 7 guest if you wanted the easy way.
-  ### Box in a Box
+  ### I created a Windows 7 guest if you wanted the easy way.
+  > Box in a Box
   > cuckoo1.ova   
   > https://mega.nz/file/9AB1XQJb#MZbHNuh3ofmqXQfpQwOg_YDv0lIuWywvAVSZGcgCvuY   
   > Hash: SHA256 E:\cuckoo1.ova          
