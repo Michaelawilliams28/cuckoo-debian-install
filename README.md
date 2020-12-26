@@ -195,13 +195,13 @@ A complete Cuckoo install guide on Debian host.
 
 # Edit Cuckoo conf's
   * Must enable MongoDB before run
-  * EDIT: `/home/cuckoo/.cuckoo/conf/reporting.conf`
-    * Find line: `[mongodb]`
-    * below set `enabled = yes`
+    * EDIT: `/home/cuckoo/.cuckoo/conf/reporting.conf`
+      * Find line: `[mongodb]`
+      * below set `enabled = yes`
   * Must enable remote control if you plan to use Guacamole
-  * EDIT: `/home/cuckoo/.cuckoo/conf/cuckoo.conf`
-    * Find Line: `[remotecontrol]` (Near bottom)
-    * below set `enabled = yes`
+    * EDIT: `/home/cuckoo/.cuckoo/conf/cuckoo.conf`
+      * Find Line: `[remotecontrol]` (Near bottom)
+      * below set `enabled = yes`
     
 # Fix Gaucamole Cuckoo remote console
 * Guacamole shows a conneciton error during testing. This would be a temp fix till someone finds a better solution. 
