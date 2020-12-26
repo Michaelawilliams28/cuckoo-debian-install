@@ -252,14 +252,6 @@ A complete Cuckoo install guide on Debian host.
   * you may want to use anything but your own work or home Network connection. 
       * use DMZ, VPS, or VPN connection
       * Don't leave bread crumbs back to you
-  * malware analysis isn't perfect
-      * it's impossible to predict every possible scenario for malware.
-      * Cuckoo is only to get you in the right ballpark for behavior
-  * I used Gauc remote control to perform some tasks 
-      * if the links or malware require multiple downloads
-        * use the remote control to assist the cuckoo automation
-  * behavior analysis is only part of it
-      * there is a lot more you can do to analize without executing
       
  # More information 
    https://cuckoo.readthedocs.io/en/latest/installation/   
