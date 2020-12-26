@@ -103,10 +103,6 @@ A complete Cuckoo install guide on Debian host.
 ` python ./setup.py install`   
 ` cd ~`   
 ` sudo pip install distorm3==3.4.4`
-
-### Volatility for venv
- * copy vol to venv
-  `sudo cp -r /usr/local/lib/python2.7/dist-packages/volatility-2.6.1-py2.7.egg/volatility/ /home/cuckoo/venv/lib/python2.7/`
  
 # Installing M2Crypto
 ` sudo apt install python-m2crypto`    
@@ -143,6 +139,9 @@ A complete Cuckoo install guide on Debian host.
   > hopefully cuckoo does intialize and shows welcome message. This will create the initial conf files.
   * confirm distorm3 is installed in venv for vol   
   (venv) `pip install distorm3==3.4.4`  
+  ### Volatility for venv
+  * copy vol to venv
+  `sudo cp -r /usr/local/lib/python2.7/dist-packages/volatility-2.6.1-py2.7.egg/volatility/ /home/cuckoo/venv/lib/python2.7/`
     
   * Don't start cuckoo yet. Will still have a bit more to do. 
 
