@@ -247,17 +247,17 @@ A complete Cuckoo install guide on Debian host.
        * launch win7 guest and verify it has internet access
         * from host make sure you can ping guest
           * 192.168.56.101
-    * If you noticed, I did not set any UFW rules. 
+       * you need to activate venv before starting Cuckoo
+        * before starting Cuckoo, Cuckoo Webserver, and Cuckoo API
+  * If you noticed, I did not set any UFW rules. 
       * You will have to tinker with it becuase it can break the traffic from host to guest and cause cuckoo to fail
-    * you need to activate venv before starting Cuckoo
-      * before starting Cuckoo, Cuckoo Webserver, and Cuckoo API
   * you may want to use anything but your own work or home Network connection. 
       * use DMZ, VPS, or VPN connection
       * Don't leave bread crumbs back to you
   * malware analysis isn't perfect
       * it's impossible to predict every possible scenario for malware.
       * Cuckoo is only to get you in the right ballpark for behavior
-  * I use Gauc remote control to perform some tasks 
+  * I used Gauc remote control to perform some tasks 
       * if the links or malware require multiple downloads
         * use the remote control to assist the cuckoo automation
   * behavior analysis is only part of it
