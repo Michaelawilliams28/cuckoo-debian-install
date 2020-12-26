@@ -249,3 +249,10 @@ A complete Cuckoo install guide on Debian host.
       * You will have to tinker with it becuase it can break the traffic from host to guest and cause cuckoo to fail
     * you need to activate venv before starting Cuckoo
       * before starting Cuckoo, Cuckoo Webserver, and Cuckoo API
+ # More information 
+   https://cuckoo.readthedocs.io/en/latest/installation/
+   https://cuckoo.sh/docs/installation/host/installation.html
+   I astrayed from the following. Although, had helpful information
+   https://gist.github.com/braimee/bf570a62f53f71bad1906c6e072ce993#file-mostly_painless_cuckoo_sandbox_install-md
+   https://blog.nviso.eu/2018/04/12/painless-cuckoo-sandbox-installation/
+   
