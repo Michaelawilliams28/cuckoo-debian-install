@@ -1,5 +1,5 @@
 # Cuckoo Debian Install  
-# How to Build a Debian Cuckoo Sandbox Malware Analysis System
+## How to Build a Debian Cuckoo Sandbox Malware Analysis System
 
 A complete Cuckoo install guide on Debian host.
   * Debian 10.7
@@ -11,7 +11,7 @@ A complete Cuckoo install guide on Debian host.
   * estimated time around 3-4 hours from scratch.
   * time spent on knowledge on this guide about 10 times that. :/
   
-## Debian Host setup  
+# Debian Host setup  
   * Download Debian 10.7 iso
     * https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-10.6.0-amd64-netinst.iso 
   * Create a VM or use on phyiscal machine
