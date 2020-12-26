@@ -141,6 +141,9 @@ A complete Cuckoo install guide on Debian host.
   * install cuckoo community rules
   (venv)` cuckoo community`
   > hopefully cuckoo does intialize and shows welcome message. This will create the initial conf files.
+  * confirm distorm3 is installed in venv for vol   
+  (venv) `pip install distorm3==3.4.4`  
+    
   * Don't start cuckoo yet. Will still have a bit more to do. 
 
 # Import ova Cuckoo Guest machine with VirtualBox   
@@ -234,10 +237,6 @@ A complete Cuckoo install guide on Debian host.
   * you should see some simulaitries with the lines. 
 
 # Activate venv and start Cuckoo
-  * as cuckoo user, open terminal and confirm distorm3 is installed in venv for vol
-    `. venv/bin/activate` 
-    `pip install distorm3==3.4.4`
-    
   * as cuckoo user, open terminal and activate venv and start cuckoo with debug enabled.   
     `. venv/bin/activate`   
     (venv)` cuckoo -d`   
