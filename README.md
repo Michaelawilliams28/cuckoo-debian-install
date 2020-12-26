@@ -131,17 +131,17 @@ A complete Cuckoo install guide on Debian host.
   (venv)` pip install -U pip setuptools`   
   (venv)` pip install -U cuckoo`   
   * for cuckoo agent to work   
-  (venv)` pip install pip==9.0.3`   
-  * first run   
-  (venv)` cuckoo`
-  * install cuckoo community rules
-  (venv)` cuckoo community`
-  > hopefully cuckoo does intialize and shows welcome message. This will create the initial conf files.
+  (venv)` pip install pip==9.0.3`     
+  * first run    
+  (venv)` cuckoo`   
+  * install cuckoo community rules   
+  (venv)` cuckoo community`   
+  > hopefully cuckoo does intialize and shows welcome message. This will create the initial conf files.   
   * confirm distorm3 is installed in venv for vol   
-  (venv) `pip install distorm3==3.4.4`  
+  (venv) `pip install distorm3==3.4.4`    
   ### Volatility for venv
-  * copy vol to venv
-  `sudo cp -r /usr/local/lib/python2.7/dist-packages/volatility-2.6.1-py2.7.egg/volatility/ /home/cuckoo/venv/lib/python2.7/`
+  * copy vol to venv   
+  `sudo cp -r /usr/local/lib/python2.7/dist-packages/volatility-2.6.1-py2.7.egg/volatility/ /home/cuckoo/venv/lib/python2.7/`   
     
   * Don't start cuckoo yet. Will still have a bit more to do. 
 
