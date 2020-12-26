@@ -9,7 +9,7 @@ A complete Cuckoo install guide on Debian host.
   * building Gaucamole 1.2 from source
   * optional win7 guest ova
   * using venv for cuckoo
-  * estimated time around 3-4 hours from scratch.
+  * estimated time around 3-4 hours from scratch :relaxed:
   * time spent on knowledge on this guide about 10 times that :disappointed:
   
 # Debian Host setup  
