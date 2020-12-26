@@ -7,6 +7,7 @@ A complete Cuckoo install guide on Debian host.
   * optional win7 guest ova
   * using venv for cuckoo
   * estimated time around 3-4 hours from scratch.
+  * time spent on knowledge on this guide about 10 times that. :/
   
 ## Debian Host setup  
   * Download Debian 10.7 iso
