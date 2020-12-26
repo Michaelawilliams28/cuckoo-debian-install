@@ -140,8 +140,10 @@ A complete Cuckoo install guide on Debian host.
   > hopefully cuckoo does intialize and shows welcome message. This will create the initial conf files.    
   ### Volatility for venv
   * copy vol to venv   
+  > as root
   `sudo cp -r /usr/local/lib/python2.7/dist-packages/volatility-2.6.1-py2.7.egg/volatility/ /home/cuckoo/venv/lib/python2.7/`   
   * confirm distorm3 is installed in venv for vol   
+  > as cuckoo user in venv
   (venv) `pip install distorm3==3.4.4`   
     
   * Don't start cuckoo yet. Will still have a bit more to do. 
