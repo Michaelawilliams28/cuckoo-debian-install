@@ -14,7 +14,8 @@ A complete Cuckoo install guide on Debian host.
     * I used ESXI and VMware workstation Pro for host hypervisor (Box in a Box)
     * Optional settings  
       I used these settings for this guide.
-    - 60GB storage Minimum
+    - 60GB storage Minimum Recommend 80-100GB
+      * after guest creation, has about 9GB left
     - Guided partitionaing w/ seperate /home /var and /tmp partitions.
     - Software
       * ssh server
