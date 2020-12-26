@@ -1,6 +1,6 @@
 # Cuckoo Debian Install  
-## How to Build a Debian Cuckoo Sandbox Malware Analysis System
-# Dynamic Malware Analysis
+# How to Build a Debian Cuckoo Sandbox Malware Analysis System
+## Dynamic Malware Analysis Sandbox
 > https://github.com/cuckoosandbox/cuckoo
 
 A complete Cuckoo install guide on Debian host.
