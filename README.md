@@ -215,6 +215,7 @@ A complete Cuckoo install guide on Debian host.
       * Find Line: `[memory]`
       * below set `enabled = yes`
   * Must set volatility image profile
+    > if you used my ova win7 image 
     * EDIT: `/home/cuckoo/.cuckoo/conf/memory.conf`
       * Find Line: `[basic]`
       * below set `guest_profile = Win7SP1x64`
