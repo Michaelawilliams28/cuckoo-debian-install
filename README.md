@@ -230,7 +230,7 @@ A complete Cuckoo install guide on Debian host.
 # Fix Gaucamole Cuckoo remote console
 * Guacamole shows a conneciton error during testing. This would be a temp fix till someone finds a better solution. 
 > https://github.com/cuckoosandbox/cuckoo/issues/2787#issuecomment-630522999
-  * we used venv because we are cool. so, the path is a bit different. 
+  * we used venv. so, the path is a bit different. 
   * EDIT: `/home/cuckoo/venv/local/lib/python2.7/site-packages/cuckoo/web/analysis/urls.py`
   * below line 7 add+: `from django.views.decorators.csrf import csrf_exempt`
   * Comment now line 27 with `#` at the beginning
