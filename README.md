@@ -14,7 +14,8 @@ A complete Cuckoo install guide on Debian host.
   
 # Debian Host setup  
   * Download Debian 10.7 iso
-    * https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-10.6.0-amd64-netinst.iso 
+    ~~https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-10.6.0-amd64-netinst.iso~~
+    * https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-10.7.0-amd64-netinst.iso
   * Create a VM or use on phyiscal machine
     * I used ESXI and VMware workstation Pro for host hypervisor 
     * Optional settings  
